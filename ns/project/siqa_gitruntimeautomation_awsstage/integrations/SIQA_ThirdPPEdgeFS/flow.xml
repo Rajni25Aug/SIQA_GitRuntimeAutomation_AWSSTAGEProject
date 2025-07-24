@@ -5,7 +5,11 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="SIQA_OriginTest_OnPremAssets" SERVICE="Basics_1:ComplexFS">
+<INVOKE NAME="SIQA_OriginTest_OnPremAssets" SERVICE="Basics_1:ComplexFS" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE NAME="TPP_services_in_FCS" SERVICE="services:add3Ints">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
