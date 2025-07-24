@@ -34,3 +34,61 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
+- serviceName: project.siqa_gitruntimeautomation_awsstage.integrations:SIQA_ThirdPPEdgeFS
+  packages:
+  - name: SIQA_GitRuntimeAutomation_AWSSTAGEProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: Basics_1:ComplexFS
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:Basic_Flow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.math:divideInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.math:subtractInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.math:multiplyIntList
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: Basics_1:mapservice
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:TryCatch
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Map_1:TestFlow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: REST_1_1.CurrentDateAndTime:_get
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: SOAP_1_1:showDateAndTime
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
