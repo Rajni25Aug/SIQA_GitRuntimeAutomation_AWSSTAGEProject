@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.siqa_gitruntimeautomation_awsstage.integrations:EdgeFlowserviceWithExistingEdS
+  packages:
+  - name: SIQA_GitRuntimeAutomation_AWSSTAGEProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
