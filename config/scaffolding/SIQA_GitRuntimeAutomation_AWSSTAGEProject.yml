@@ -92,3 +92,7 @@ services:
   packages:
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
