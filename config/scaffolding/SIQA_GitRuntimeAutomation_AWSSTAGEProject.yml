@@ -8,6 +8,7 @@ packages:
   gitUsername: Rajni25Aug
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: kusiAWSStage1
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Rajni25Aug
@@ -17,7 +18,19 @@ services:
   packages:
   - name: SIQA_GitRuntimeAutomation_AWSSTAGEProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
+- serviceName: project.siqa_gitruntimeautomation_awsstage.integrations:SIQA_E2E_Mon_Test
+  packages:
+  - name: SIQA_GitRuntimeAutomation_AWSSTAGEProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
     version: 11.1.0.0.2070
